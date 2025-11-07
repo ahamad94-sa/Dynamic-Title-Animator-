@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: white;
+      font-family: "Geologic", sans-serif;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      font-weight: bold;
+    }
+
+    /* Container for the animated words */
+    .word-container {
+      display: inline-block;
+      margin-left: 0.2em; /* spacing between "I'M A" and words */
+      height: 1.25em; /* height of one word line */
+      overflow: hidden;
+      vertical-align: bottom;
+      color: #ff8800;
+      position: relative;
+    }
+
+    /* Words wrapper that moves vertically */
+    .words {
+      display: flex;
+      flex-direction: column;
+      animation: animateWords 10s linear infinite;
+    }
+
+    .words span {
+      height: 1.25em;
+      line-height: 1.25em;
+      display: block;
+    }
+
+    @keyframes animateWords {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-6.25em); /* 1.25em * 5 words */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    I'M A
+    <span class="word-container">
+      <div class="words">
+        <span>CODER</span>
+        <span>DEVELOPER</span>
+        <span>PROGRAMMER</span>
+        <span>DESIGNER</span>
+        <span>FREELANCER</span>
+        <span>CODER</span> <!-- repeated for seamless looping -->
+      </div>
+    </span>
+  </h1>
+</body>
+</html>
