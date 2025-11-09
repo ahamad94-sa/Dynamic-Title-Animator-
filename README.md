@@ -87,7 +87,25 @@ Open the index.html file in any browser or integrate it directly into your perso
 
 
 
-Created by: **SYED AQEEB AHAMAD** 
+* Created by: **SYED AQEEB AHAMAD** 
+
+* 📧 Email: syedaqeebahamad3009@gmail.com
 
 Front-End Developer passionate about creating interactive, clean, and performance-focused web designs.
+
+
+
+
+
+
+##### ⭐ If you like this project, don’t forget to star the repository on GitHub and follow me on GitHub for more amazing projects and updates!
+
+&nbsp; 💻 GitHub: https://github.com/ahamad94-sa
+
+##### ⭐ And don’t forget to follow and connect me on LinkedIn for my software journey updates!
+
+&nbsp; 🔗 LinkedIn: https://www.linkedin.com/in/ahamad2025
+
+##### “Design with passion, develop with purpose.”
+
 
